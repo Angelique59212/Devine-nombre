@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Devine le nombre</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6167e09880.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>DEVINE MON NOMBRE !!!</h1>
+    </header>
+
+    <main>
+        <div id="top">
+            <h2>Règle:</h2>
+            <p>Devine un nombre entre 1 et 100.</p>
+            <p>Tu as <span id="numberchance">10 </span>chances mais ne t'inquiète pas tu pourras retenter ta chance si tu échoues.
+                <i class="far fa-smile-wink"></i></p>
+        </div>
+        <div id="game">
+            <label for="number">Entrez votre nombre</label>
+            <input type="text" id="number" name="number">
+            <input type="submit" id="submit" name="submit">
+        </div>
+        <div id="log">
+            <img src="/img/log%20devine.png" alt="logo">
+        </div>
+        <div id="reinitialize">
+            <input type="reset" id="reset" value="Retente ta chance">
+        </div>
+
+        <div id="result">
+            <p id="resultat"></p>
+            <p id="propose">Les nombres que tu as proposés sont:</p>
+            <p id="number_written"></p>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
