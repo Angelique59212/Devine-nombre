@@ -1,7 +1,7 @@
 let number = Math.floor(Math.random() * 100);
 let chance = 10;
 
-
+//call id
 let champ = document.getElementById("number");
 let result = document.getElementById("resultat");
 let soumettre = document.getElementById("submit");
@@ -10,6 +10,7 @@ let howChance = document.getElementById("numberchance");
 let before = document.getElementById("number_written");
 let text = document.getElementById("propose");
 let retry = document.getElementById("reset");
+
 function test () {
     if (chance > 1) {
         if (parseInt(champ.value) === number) {
