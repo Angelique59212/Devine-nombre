@@ -1,6 +1,6 @@
 let number = Math.floor(Math.random() * 100);
 let chance = 10;
-console.log(number);
+
 
 let champ = document.getElementById("number");
 let result = document.getElementById("resultat");
@@ -51,6 +51,5 @@ retry.addEventListener("click", function (){
     result.innerHTML = "";
     text.style.display = "none";
     number = Math.floor(Math.random() * 100);
-    console.log(number);
 })
 
